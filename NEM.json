@@ -1,5 +1,5 @@
 {
-  "memes": [
+  "memes":
     {
       'thankyou': 'http://i.memeful.com/media/post/BRkm0vw_700wa_0.gif',
       'thankyou1': 'http://i.memeful.com/media/post/9d6X6pM_700wa_0.gif',
@@ -44,5 +44,4 @@
       'whoa': 'http://i.memeful.com/media/post/lMzAzwO_700wa_0.gif',
       'whoa1': 'http://i.memeful.com/media/post/PRoPBdo_700wa_0.gif'      
     }  
-  ]  
 }
