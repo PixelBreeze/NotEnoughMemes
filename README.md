@@ -3,3 +3,6 @@
 Post a GIF of your reaction.
 
 Special thanks to [TheBanHammer](https://github.com/TheBanHammer)
+
+##Usage:
+/r *gifname*
