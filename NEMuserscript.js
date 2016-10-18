@@ -1,5 +1,5 @@
 var items = {};
-$.getJSON('https://rawgit.com/PixelBreeze/NotEnoughMemes/master/NEM.json', function(data) {
+$.getJSON('https://cdn.rawgit.com/PixelBreeze/NotEnoughMemes/master/NEM.json', function(data) {
     memes = data.memes;
     API.chatLog('Gifs Loaded.');
 });
