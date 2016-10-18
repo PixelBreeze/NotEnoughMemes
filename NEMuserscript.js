@@ -5,10 +5,13 @@ $.getJSON('https://cdn.rawgit.com/PixelBreeze/NotEnoughMemes/master/NEM.json', f
 });
 
 API.on(API.CHAT_COMMAND, function(data) {
-    if (data.length > 0 && data[0] == '/') {
-        data = data.substr(1);
+    if (data.length > 0 && data.indexOf('/r ') == 0) {
+        data = data.substr(3);
     }
     if (memes[data.split(' ')[0]]) {
         API.sendChat(data.replace(data.split(' ')[0], '').trim() + ' ' + memes[data.split(' ')[0]]);
+    }
+    else {
+        API.chatLog('Meme Not Found');
     }
 });
