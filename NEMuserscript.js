@@ -11,7 +11,4 @@ API.on(API.CHAT_COMMAND, function(data) {
     if (memes[data.split(' ')[0]]) {
         API.sendChat(data.replace(data.split(' ')[0], '').trim() + ' ' + memes[data.split(' ')[0]]);
     }
-    else {
-        API.chatLog('Meme Not Found');
-    }
 });
